@@ -1,0 +1,161 @@
+/* ── GENERAL ── */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* ── HEADER ── */
+header {
+  background-color: #003893;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* ── NAV ── */
+nav {
+  background-color: #FCD116;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  color: #CE1126;
+}
+
+/* ── MAIN ── */
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* ── TÍTULOS DE SECCIÓN ── */
+h2 {
+  border-bottom: 3px solid #FCD116;
+  padding-bottom: 5px;
+  color: #003893;
+}
+
+/* ── TRES COLUMNAS ── */
+.tres-columnas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tres-columnas article {
+  background-color: white;
+  padding: 15px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+/* ── IMÁGENES ── */
+.tres-columnas article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ── LINKS ── */
+a {
+  color: #CE1126;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ── FOOTER ── */
+footer {
+  background-color: #003893;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #FCD116;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ── FORMULARIO DE CONTACTO ── */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #003893;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+form button:hover {
+  background-color: #CE1126;
+}
+
+/* ── TABLA CONTACTO ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #003893;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 20px;
+  vertical-align: top;
+  width: 50%;
+}
